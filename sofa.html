@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+            background-color:whitesmoke;
+        }
+        header{
+            /* background-color: aqua; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+
+        }
+     header img{
+         height: 67px;
+         width: 100px;
+         float: left;
+         
+     }
+     .nav_bar {
+         list-style-type: none;
+     }
+     .nav_bar li{
+         display: inline-block;
+         padding: 0 15px;
+         text-transform: capitalize;
+         font-size: 20px;
+         
+         
+     }
+     
+   .btn button{
+       text-align: center;
+       padding: 8px;
+       padding: 8px 19px;
+       font-size: 16px;
+       margin-right: 12px;
+       background-color:rgb(255, 0, 0);
+       border-radius: 5px;
+     text-transform: capitalize;
+     border: none;
+     color: white;
+   }
+
+
+
+
+
+
+
+   
+  .btn {
+  /* background-color: #04AA6D; */
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.cover {
+  position: relative;
+  display: inline-block;
+}
+
+.under {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.under a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.under a:hover {background-color: rgb(156, 95, 95);}
+
+.cover:hover .under {display: flex;}
+
+.cover:hover .btn {background-color: aqua;}
+
+
+
+
+
+.gallary img{
+       height: 300px;
+       width: 300px;
+       padding-left: 5px;
+   }
+   .over{
+  display: flex;
+  justify-content:space-evenly;
+   }
+   .deals {
+  display:flex;
+  justify-content: space-between;
+    }
+    .deals button{
+        background-color: aqua;
+        margin: 22px;
+        padding-left: 12px;
+        padding-right:12px ;
+        border-radius: 5px;
+        border: none;
+        /* padding: 0px,17px 0px 17px; */
+    }
+    .deals h1{
+        padding-left: 1rem;
+    }
+    .small h3{
+        text-align: center;
+        color: aqua;
+    }
+  
+
+
+
+
+
+
+    .three{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .three_upper{
+        margin: 19px;
+        background-color: #fff;
+    }
+    .three_upper h1{
+        padding-top: 15px;
+    }
+    .three_upper h3{
+        text-align: center;
+        color: red;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    footer{
+        background-color:  #fff;
+        margin: 19px 19px 19px 19px;
+    }
+    .foot{
+        display: flex;
+        justify-content: space-evenly;
+    }
+  .follow{
+      display: flex;
+      justify-content: space-evenly;
+  }
+ 
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/115048935/original/066f6df5af17dcbc5aba62aa39a80c1244b61b9d/design-home-furniture-logo-with-my-best-skill.jpg">
+         
+        <nav >
+            <ul  class="nav_bar">
+                <li style="margin-right: 45px;"><a   style="text-decoration: none; color: black;"href="http://127.0.0.1:5500/home.html">Home</a></li>
+                <li style="margin-right: 45px;">About us</li>
+                <li style="margin-right: 45px;">service</li>
+                <li style="margin-right: 45px;"><a style="text-decoration:none ;color: black;" href="http://127.0.0.1:5500/contact_us.html">contact us</a></li>
+           
+
+            </ul>
+        </nav>
+      <div style="margin-right: 27px;" class="btn">
+          
+
+      <!-- <div  class=" cover;"  style="display: inline;">
+
+      
+          <button class="btn">category</button>
+           <div class="under">
+               <a href="">link1</a>
+               <a href="">link1</a>
+               <a href="">link1</a>
+
+           </div>
+          </div> -->
+          <div class="cover">
+              <button class="btn">category</button>
+              <div class="under">
+                <a href="http://127.0.0.1:5501/sofa.html">sofa </a>
+                <a href="http://127.0.0.1:5500/TABLE.HTML#">Table</a>
+                <a href="#">chair</a>
+              </div>
+            </div>
+        <button >login</button>
+        <button>sign up</button>
+      </div>
+  </header>
+
+
+
+ <img  style=" height: 400px; width: 98%; margin: 12px;"src="https://www.ulcdn.net/media/slideshow/FHS-Slideshow-Main-Hagen.jpg?1634904809">
+
+
+
+
+
+
+
+
+ <div class="gallary">
+    <div class="deals">
+        <h1>Deals of the day</h1>
+        <button>view all</button>
+        
+    </div>
+    <hr>
+    <div class="over">
+
+    
+ <div class="small">
+
+
+    <img src="https://ii2.pepperfry.com/media/wysiwyg/banners/bs_web_19102021_1.jpg">
+    <h3>wooden furniture</h3>
+</div>
+<div class="small">     
+<img src="https://ii1.pepperfry.com/media/wysiwyg/banners/bs_web_19102021_2.jpg">
+<h3>room furniture</h3>
+</div>
+
+<div class="small">
+    <img src="https://ii3.pepperfry.com/media/wysiwyg/banners/bs_web_22102021_3.jpg">
+    <h3>traditional furniture</h3>
+</div>
+<div class="small">
+
+<img src="https://ii2.pepperfry.com/media/wysiwyg/banners/bs_web_19102021_4.jpg"> 
+<h3>mordern furniture</h3>
+</div>
+
+</div>
+
+</div>
+ <div class="gallary">
+    <div class="deals">
+        <h1>Deals of the day</h1>
+        <button>view all</button>
+        
+    </div>
+    <hr>
+    <div class="over">
+
+    
+ <div class="small">
+
+
+    <img src="https://ii2.pepperfry.com/media/catalog/product/e/s/568x284/esteban-3-seater-half-leather-sofa-in-grey-colour-by-casacraft-esteban-3-seater-half-leather-sofa-in-8akxht.jpg">
+    <h3>estaban 3 setter lether sofa</h3>
+</div>
+<div class="small">     
+<img src="https://ii3.pepperfry.com/media/catalog/product/v/a/568x284/valeria-3-seater-sofa-in-red-colour---casacraft-by-pepperfry-valeria-3-seater-sofa-in-red-colour---c-iicnkn.jpg">
+<h3>valera 3 setter sofa</h3>
+</div>
+
+<div class="small">
+    <img src="https://ii1.pepperfry.com/media/catalog/product/c/r/568x284/cristobal-half-leather-three-seater-sofa-in-black-colour-by-casacraft-cristobal-half-leather-three-s-mtzniu.jpg">
+    <h3>cristabal 3 setter sofa</h3>
+</div>
+<div class="small">
+
+<img src="https://ii2.pepperfry.com/media/catalog/product/h/a/568x284/haaken-3-seater-sofa-in-blue-color----woodsworth-by-pepperfry-haaken-3-seater-sofa-in-blue-color-----a5mjqg.jpg"> 
+<h3>hakeen 3 seeter sofa</h3>
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+<div class="gallary">
+    <div class="deals">
+        <h1>ROYAL SOFA</h1>
+        <button>view all</button>
+        
+    </div>
+    <hr>
+    <div class="over">
+
+    
+ <div class="small" >
+
+
+    <img src="https://ii1.pepperfry.com/media/catalog/product/r/o/266x293/royal-wing-chair-in-blue-color-by-dreamzz-furniture-royal-wing-chair-in-blue-color-by-dreamzz-furnit-6hcjya.jpg">
+    <h3>Solid color wing chairs-Royal</h3>
+</div>
+<div class="small">     
+<img src="https://m.media-amazon.com/images/I/61r+E1kbjAL._SL1280_.jpg">
+<h3>Aarsun royal coach</h3>
+</div>
+
+<div class="small">
+    <img src="https://5.imimg.com/data5/YL/ET/QQ/SELLER-12803526/royal-sofa-set-500x500.jpg">
+    <h3>Brown Royal sofa</h3>
+</div>
+<div class="small">
+
+<img src="https://royalzig.com/wp-content/uploads/2020/02/Royal-Luxury-Corner-Sofa-Set.jpg"> 
+<h3>Ultra Royal Sofa</h3>
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="three_upper">
+    <h1 style="text-align: center;">WE care your choice</h1>
+    <div class="three">
+       
+
+    <div>
+    <img src="https://ii2.pepperfry.com/media/wysiwyg/banners/Mas_furniture_web_05022021_1.jpg">
+    <h3>Dining set</h3>
+    </div>
+    <div>
+        <img src="https://ii3.pepperfry.com/media/wysiwyg/banners/Mas_furniture_web_05022021_2.jpg">
+        <h3>sofa set</h3>
+    </div>
+    <div> <img src="https://ii1.pepperfry.com/media/wysiwyg/banners/Mas_furniture_web_05022021_3.jpg">
+        <h3>wardrobes</h3>
+    </div>
+
+
+
+
+
+    </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+    <div class="foot">
+
+
+    <div>
+        <h2>About us</h2>
+        <p>Careers</p>
+        <p>Press releaes</p>
+        <p>WE CARE YOU</p>
+        <p>GIFT</p>
+        <p>SALE 
+
+
+
+          
+    </div>
+    <DIV>
+        <H1>
+            help
+        </H1>
+        <p>payments</p>
+        <p>shipping</p>
+        <p>cancellation</p>
+        <p>FAQ</p>
+        <P>REPORT</P>
+    </DIV>
+    <DIV>
+        <h1>
+            SOCIAL PROFILE
+        </h1>
+        <P>facebook</P>
+        <p>Twitter</p>
+        <p>youtube</p>
+        <p>Linkedn</p>
+        <p>instagram</p>
+    </DIV>
+
+    <div>
+        <h1>Policy</h1>
+        <p>Return policy</p>
+        <p>Terms of use</p>
+        <p>security</p>
+        
+    </div>
+   
+
+    </div>
+<hr>
+
+
+<div  class="follow">
+<div >
+     <h1 style="text-align: center;">We accept</h1>
+     <img style="height: 90px;
+     width: 200px;" src="https://img.pngio.com/free-payment-method-credit-card-icon-set-credit-card-icons-png-1000_500.jpg">
+ </div>
+   <div>
+    <img  style=" height: 150px;"src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/115048935/original/066f6df5af17dcbc5aba62aa39a80c1244b61b9d/design-home-furniture-logo-with-my-best-skill.jpg">
+       
+   </div>
+ <div>
+     <h1 style="text-align: center;">follow us</h1>
+     <img  style=" height:50px;"src="https://www.beachrealtync.com/sites/default/files/uploads/socials_3.png">
+ </div>
+
+</div>
+
+
+
+
+</footer>
+
+
+
+</body>
+</html>

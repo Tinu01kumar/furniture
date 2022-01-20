@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+            background-color:whitesmoke;
+        }
+        header{
+            /* background-color: aqua; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /* background-color: black; */
+
+        }
+     header img{
+         height: 67px;
+         width: 100px;
+         float: left;
+         
+     }
+     .nav_bar {
+         list-style-type: none;
+     }
+     .nav_bar li {
+         display: inline-block;
+         padding: 0 15px;
+         text-transform: capitalize;
+         font-size: 20px;
+         color: black;
+
+         
+         
+     }
+     .nav_bar li a{
+         color: black;
+         padding: 12px;
+     }
+     .nav_bar li :hover{
+         background-color: aqua;
+         color: black;
+         padding: 12px;
+         border-radius: 5px;
+         
+         
+        
+     }
+     
+   .btn button{
+       text-align: center;
+       padding: 8px;
+       padding: 8px 19px;
+       font-size: 16px;
+       margin-right: 12px;
+       background-color:rgb(255, 0, 0);
+       border-radius: 5px;
+     text-transform: capitalize;
+     border: none;
+     color: white;
+   }
+   .sofa_img {
+         text-align: center;
+   }
+   .sofa_img img{
+       height: 27em;
+       width: 82em;
+       margin-top: 10px;
+   }
+   .gallary{
+
+       margin: 17px;
+       padding: 10px;
+       background-color: #fff;
+   }
+   .gallary img{
+       height: 300px;
+       width: 300px;
+       padding-left: 5px;
+   }
+   .over{
+  display: flex;
+  justify-content: space-between;
+   }
+   .deals {
+  display:flex;
+  justify-content: space-between;
+    }
+    .deals button{
+        background-color: aqua;
+        margin: 22px;
+        padding-left: 12px;
+        padding-right:12px ;
+        border-radius: 5px;
+        border: none;
+        /* padding: 0px,17px 0px 17px; */
+    }
+    .small h3{
+        text-align: center;
+        color: aqua;
+    }
+    .three{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .three_upper{
+        margin: 19px;
+        background-color: #fff;
+    }
+    .three_upper h1{
+        padding-top: 15px;
+    }
+    .three_upper h3{
+        text-align: center;
+        color: red;
+    }
+    footer{
+        background-color:  #fff;
+        margin: 19px 19px 19px 19px;
+    }
+    .foot{
+        display: flex;
+        justify-content: space-evenly;
+    }
+  .follow{
+      display: flex;
+      justify-content: space-evenly;
+  }
+ 
+  
+
+
+
+
+
+  .btn {
+  /* background-color: #04AA6D; */
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.cover {
+  position: relative;
+  display: inline-block;
+}
+
+.under {
+  display: none;
+  position: absolute;
+  background-color: whitesmoke;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.under a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.under a:hover {background-color: #ddd;}
+
+.cover:hover .under {display: flex;}
+
+.cover:hover .btn {background-color: aqua;
+}
+
+
+
+
+
+
+.upper_five{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin: 12px;
+    padding: 5px;
+}
+
+
+.five{
+   display: flex;
+   justify-content:space-between;
+
+}
+.five img{
+   
+    height: 220px;
+    width: 250px;
+    padding: 6px;
+    
+}
+  .five h3{
+      text-align :center
+  }
+ 
+/*   
+  @media(max-width:900px){
+      .body{
+          background-color: aqua;
+      }
+  }
+
+@media-query(max-width:450px){
+    .body{
+        background-color: red;
+    }
+} */
+
+  
+    </style>
+</head>
+<body>
+    
+    <header>
+          <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/115048935/original/066f6df5af17dcbc5aba62aa39a80c1244b61b9d/design-home-furniture-logo-with-my-best-skill.jpg">
+           
+          <nav >
+              <ul  class="nav_bar">
+                  <li style="margin-right: 45px;"><a>Home</a></li>
+                  <li style="margin-right: 45px;"><a>About us</a></li>
+                  <li style="margin-right: 45px;"><a>Service</a></li>
+                  <li style="margin-right: 45px;"><a style="text-decoration:none ;" href="http://127.0.0.1:5500/contact_us.html">contact us</a></li>
+             
+
+              </ul>
+          </nav>
+        <div style="margin-right: 27px;" class="btn">
+            
+
+        <!-- <div  class=" cover;"  style="display: inline;">
+
+        
+            <button class="btn">category</button>
+             <div class="under">
+                 <a href="">link1</a>
+                 <a href="">link1</a>
+                 <a href="">link1</a>
+
+             </div>
+            </div> -->
+            <div class="cover">
+                <button class="btn">category</button>
+                <div class="under">
+                  <a   href="http://127.0.0.1:5500/sofa.html">sofa </a>
+                  <a href="http://127.0.0.1:5500/TABLE.HTML#L">Table</a>
+                  <a href="">chair</a>
+                  <a href="http://127.0.0.1:5500/youtube.html">workshop</a>
+                  <a href="http://127.0.0.1:5500/feedback.html">Feedback</a>
+                </div>
+               
+              </div>
+          <button >login</button>
+          <button>sign up</button>
+        </div>
+    </header>
+    <div class="sofa_img">
+        <img src="https://damroindia.com/media/bsimages/Main_Banner_1_1_.jpg">
+    </div>
+    
+    <!-- <div class="image">
+        <div class="vie">
+        <h1 style="padding:10px 0px 0px 12px;">DEAL OF THE DAY</h1>
+        <button>view all</button>
+        </div>
+        <hr style="margin
+        : 0px 10px 10px 10px;">
+        
+        <img  src="https://www.decorhousefurniture.com/cdn-cgi/image/fit=contain,f=auto,width=350/css/20468/images/modern.jpg">
+        <p>modern</p>
+
+        <img src="https://www.decorhousefurniture.com/cdn-cgi/image/fit=contain,f=auto,width=350/css/20468/images/contemporary.jpg">
+
+
+        <img src="https://www.decorhousefurniture.com/cdn-cgi/image/fit=contain,f=auto,width=350/css/20468/images/traditional.jpg">
+
+        <img src="https://www.decorhousefurniture.com/cdn-cgi/image/fit=contain,f=auto,width=350/css/20468/images/beach-house.jpg"> -->
+    <!-- </div> -->
+
+
+    <div class="gallary">
+        <div class="deals">
+            <h1>Deals of the day</h1>
+            <button>view all</button>
+            
+        </div>
+        <hr>
+        <div class="over">
+
+        
+     <div class="small" >
+
+    
+        <img src="https://www.decorhousefurniture.com/cdn-cgi/image/fit=contain,f=auto,width=350/css/20468/images/modern.jpg">
+        <h3></h3>
+    </div>
+    <div class="small">     
+<img src="https://www.decorhousefurniture.com/cdn-cgi/image/fit=contain,f=auto,width=350/css/20468/images/contemporary.jpg">
+<h3></h3>
+</div>
+
+<div class="small">
+        <img src="https://www.decorhousefurniture.com/cdn-cgi/image/fit=contain,f=auto,width=350/css/20468/images/traditional.jpg">
+        <h3></h3>
+</div>
+<div class="small">
+
+    <img src="https://www.decorhousefurniture.com/cdn-cgi/image/fit=contain,f=auto,width=350/css/20468/images/beach-house.jpg"> 
+    <h3></h3>
+</div>
+
+</div>
+
+    </div>
+
+
+
+
+<img style="padding-left: 160px;" src ="https://ii1.pepperfry.com/media/wysiwyg/banners/clp_191021_es.jpg">
+
+
+
+    
+    <div class="gallary">
+        <div class="deals">
+            <h1>Deals of the day</h1>
+            <button>view all</button>
+            
+        </div>
+        <hr>
+        <div class="over">
+
+        
+     <div class="small">
+
+    
+        <img src="https://ii2.pepperfry.com/media/wysiwyg/banners/bs_web_19102021_1.jpg">
+        <h3>wooden furniture</h3>
+    </div>
+    <div class="small">     
+<img src="https://ii1.pepperfry.com/media/wysiwyg/banners/bs_web_19102021_2.jpg">
+<h3>room furniture</h3>
+</div>
+
+<div class="small">
+        <img src="https://ii3.pepperfry.com/media/wysiwyg/banners/bs_web_22102021_3.jpg">
+        <h3>traditional furniture</h3>
+</div>
+<div class="small">
+
+    <img src="https://ii2.pepperfry.com/media/wysiwyg/banners/bs_web_19102021_4.jpg"> 
+    <h3>mordern furniture</h3>
+</div>
+
+</div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="gallary">
+        <div class="deals">
+            <h1>ROYAL SOFA</h1>
+            <button>view all</button>
+            
+        </div>
+        <hr>
+        <div class="over">
+
+        
+     <div class="small" >
+
+    
+        <img src="https://ii1.pepperfry.com/media/catalog/product/r/o/266x293/royal-wing-chair-in-blue-color-by-dreamzz-furniture-royal-wing-chair-in-blue-color-by-dreamzz-furnit-6hcjya.jpg">
+        <h3>Solid color wing chairs-Royal</h3>
+    </div>
+    <div class="small">     
+<img src="https://m.media-amazon.com/images/I/61r+E1kbjAL._SL1280_.jpg">
+<h3>Aarsun royal coach</h3>
+</div>
+
+<div class="small">
+        <img src="https://5.imimg.com/data5/YL/ET/QQ/SELLER-12803526/royal-sofa-set-500x500.jpg">
+        <h3>Brown Royal sofa</h3>
+</div>
+<div class="small">
+
+    <img src="https://m.media-amazon.com/images/I/61r+E1kbjAL._SL1280_.jpg"> 
+    <h3>Ultra Royal Sofa</h3>
+</div>
+
+</div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <div class="gallary">
+        <div class="deals">
+            <h1>Dining set</h1>
+            <button>view all</button>
+            
+        </div>
+        <hr>
+        <div class="over">
+
+        
+     <div class="small" >
+
+    
+        <img src="https://images.woodenstreet.de/image/cache/data%2Fdining-set%2F6-seater%2Fadolph-6-seater-dining-set%2Frevised%2Fhoney%2Flook-1100x768.jpg">
+        <h3>6 Seater Dining set</h3>
+    </div>
+    <div class="small">     
+<img src="https://royalzig.com/wp-content/uploads/2020/02/Luxury-European-Style-Dining-Table.jpg">
+<h3> Luxury Dining set</h3>
+</div>
+
+<div class="small">
+        <img src="https://m.media-amazon.com/images/I/61BbkKUv+vL.jpg">
+        <h3>Golden dining set</h3>
+</div>
+<div class="small">
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLf5gDnBlJakh19wp4ZW-kNH5PbknwfjMI4Q&usqp=CAU"> 
+    <h3>Antique sofa set</h3>
+</div>
+
+</div>
+
+    </div>
+
+
+
+
+
+
+<img style="padding-left: 105px;" src="https://ii2.pepperfry.com/media/wysiwyg/banners/Web_VIPCoupon_c_181021_2x_New-22.jpg">
+
+
+
+
+ 
+
+
+
+
+
+
+<div class="upper_five">
+    <div class="five">
+        <div>
+
+        
+        <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1592920567-mid-century-double-pop-up-coffee-table-walnut-white-marble-2-c.jpg">
+        <h3>small  space furniture</h3>
+
+        </div>
+        <div>
+
+        
+        <img src="https://media.istockphoto.com/photos/modern-living-room-interior-3d-render-picture-id1293762741?b=1&k=20&m=1293762741&s=170667a&w=0&h=2RI8SmBN4MrEZuTvdwRzaeB887x-dukFcQBpyQ-qwS4=">
+        <h3>mordern furniture</h3>
+            </div>
+
+            <div>
+        <img src="https://www.lotusfurnitures.in/wp-content/uploads/2020/07/Untitled-design-62.png">
+        <h3>quality furniure</h3>
+
+   </div>
+            
+   <div>
+
+       <img src="https://images.financialexpress.com/2021/03/furniture-1.jpg">
+       <h3>
+           furniture setup
+       </h3>
+   </div>
+         <div>
+
+             <img src="https://super.homelane.com/prodsnew/HLKT0000072.jpg">
+             <h3>space saving furniture</h3>
+         </div>
+    </div>
+</div>
+
+
+
+
+
+    <div class="three_upper">
+        <h1 style="text-align: center;">WE care your choice</h1>
+        <div class="three">
+           
+    
+        <div>
+        <img src="https://ii2.pepperfry.com/media/wysiwyg/banners/Mas_furniture_web_05022021_1.jpg">
+        <h3>Dining set</h3>
+        </div>
+        <div>
+            <img src="https://ii3.pepperfry.com/media/wysiwyg/banners/Mas_furniture_web_05022021_2.jpg">
+            <h3>sofa set</h3>
+        </div>
+        <div> <img src="https://ii1.pepperfry.com/media/wysiwyg/banners/Mas_furniture_web_05022021_3.jpg">
+            <h3>wardrobes</h3>
+        </div>
+
+
+
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="foot">
+
+    
+        <div>
+            <h2>About us</h2>
+            <p>Careers</p>
+            <p>Press releaes</p>
+            <p>WE CARE YOU</p>
+            <p>GIFT</p>
+            <p>SALE 
+
+
+
+              
+        </div>
+        <DIV>
+            <H1>
+                help
+            </H1>
+            <p>payments</p>
+            <p>shipping</p>
+            <p>cancellation</p>
+            <p>FAQ</p>
+            <P>REPORT</P>
+        </DIV>
+        <DIV>
+            <h1>
+                SOCIAL PROFILE
+            </h1>
+            <P>facebook</P>
+            <p>Twitter</p>
+            <p>youtube</p>
+            <p>Linkedn</p>
+            <p>instagram</p>
+        </DIV>
+
+        <div>
+            <h1>Policy</h1>
+            <p>Return policy</p>
+            <p>Terms of use</p>
+            <p>security</p>
+            
+        </div>
+       
+
+        </div>
+<hr>
+
+
+<div  class="follow">
+    <div >
+         <h1 style="text-align: center;">We accept</h1>
+         <img style="height: 90px;
+         width: 200px;" src="https://img.pngio.com/free-payment-method-credit-card-icon-set-credit-card-icons-png-1000_500.jpg">
+     </div>
+       <div>
+        <img  style=" height: 150px;"src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/115048935/original/066f6df5af17dcbc5aba62aa39a80c1244b61b9d/design-home-furniture-logo-with-my-best-skill.jpg">
+           
+       </div>
+     <div>
+         <h1 style="text-align: center;">follow us</h1>
+         <img  style=" height:50px;"src="https://www.beachrealtync.com/sites/default/files/uploads/socials_3.png">
+     </div>
+
+</div>
+
+
+
+
+    </footer>
+
+
+
+
+</body>
+</html>
